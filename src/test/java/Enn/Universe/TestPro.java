@@ -35,7 +35,10 @@ public class TestPro {
 		// playing in the garden.')]")).getText();
 		// System.out.println(text);
 
-		
+		System.setProperty("webdriver.chrome.driver", path);
+System.setPropery("webdriver.chrome.driver",path);
+
+
 		//retrive the Url of the current webpage 
 		//String url1 = driver.getCurrentUrl();   
 	//ystem.out.println("URL of the page : " + url1);
